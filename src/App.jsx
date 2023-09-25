@@ -1,16 +1,15 @@
-/* eslint-disable no-case-declarations */
 // import DateCounter from "./DateCounter";
 import { useEffect, useReducer } from "react";
-import Header from "./Header";
-import Loader from "./Loader";
-import Error from "./Error";
-import StartScreen from "./StartScreen";
-import Question from "./Question";
-import NexButton from "./NexButton";
-import Progress from "./Progress";
-import FinishScreen from "./FinishScreen";
-import Footer from "./Footer";
-import Timer from "./Timer";
+import Header from "./components/Header";
+import Loader from "./components/Loader";
+import Error from "./components/Error";
+import StartScreen from "./components/StartScreen";
+import Question from "./components/Question";
+import NexButton from "./components/NexButton";
+import Progress from "./components/Progress";
+import FinishScreen from "./components/FinishScreen";
+import Footer from "./components/Footer";
+import Timer from "./components/Timer";
 
 const initialState = {
   questions: [],
