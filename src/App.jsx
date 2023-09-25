@@ -96,9 +96,11 @@ export default function App() {
   );
 
   useEffect(function () {
-    fetch("http://localhost:8000/questions")
+    fetch("https://n1khilnick.github.io/react-questions-api/questions.json")
       .then((res) => res.json())
-      .then((data) => dispatch({ type: "dataRecieved", payload: data }))
+      .then((data) =>
+        dispatch({ type: "dataRecieved", payload: data.questions })
+      )
       .catch((err) => console.log(`Error: ${err}`));
   }, []);
 
