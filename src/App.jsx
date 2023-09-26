@@ -1,3 +1,4 @@
+/* eslint-disable no-case-declarations */
 // import DateCounter from "./DateCounter";
 import { useEffect, useReducer } from "react";
 import Header from "./components/Header";
@@ -67,7 +68,7 @@ function reducer(state, action) {
       return {
         ...initialState,
         questions: state.questions,
-        state: "ready",
+        status: "ready",
       };
 
     case "quizSeconds":
