@@ -97,7 +97,7 @@ export default function App() {
   );
 
   useEffect(function () {
-    fetch("https://n1khilnick.github.io/react-questions-api/questions.json")
+    fetch("https://sa1nick.github.io/react-questions-api/questions.json")
       .then((res) => res.json())
       .then((data) =>
         dispatch({ type: "dataRecieved", payload: data.questions })

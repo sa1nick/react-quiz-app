@@ -5,7 +5,7 @@ function FinishScreen({ points, maxPossiblePoints, highscore }) {
   if (percentage === 100) emoji = "🥇";
   if (percentage >= 80 && percentage < 100) emoji = "🥈";
   if (percentage >= 50 && percentage < 80) emoji = "🥈";
-  if (percentage >= 0 && percentage < 50) emoji = "🥱";
+  if (percentage >= 0 && percentage < 50) emoji = "🥲";
   if (percentage === 0) emoji = "🦉";
   return (
     <>
@@ -13,7 +13,7 @@ function FinishScreen({ points, maxPossiblePoints, highscore }) {
         {emoji} You scored <strong>{points}</strong> out of {maxPossiblePoints}{" "}
         ({Math.ceil(percentage)}%)
       </p>
-      <p className="highscore">highscore: {highscore}</p>
+      <p className="highscore">🏅highscore: {highscore}</p>
     </>
   );
 }
