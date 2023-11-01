@@ -2,7 +2,7 @@
 
 The React Quiz App uses the useReducer hook for efficient state management. It features an engaging UI with a progress bar to track question attempts and a timer to add excitement. Users receive a detailed result summary and can view their high score, making it a competitive and interactive quiz experience.
 
-![Quiz App Screnshot](https://github.com/sa1nick/react-quiz-app/blob/3b548ffc5dfbc78cb4345c3368f58c008bd2269a/Preview.png)
+![Screnshot](https://github.com/sa1nick/react-quiz-app/blob/3b548ffc5dfbc78cb4345c3368f58c008bd2269a/Preview.png)
 
 Quiz App Screenshot
 
